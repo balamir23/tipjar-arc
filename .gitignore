@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+
+# Circle credentials
+.circle/
+
+# Foundry / Solidity build artifacts
+contracts/out/
+contracts/cache/
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Bun
+bun.lockb
